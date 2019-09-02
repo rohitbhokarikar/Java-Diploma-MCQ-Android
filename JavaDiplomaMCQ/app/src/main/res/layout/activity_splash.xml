@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_back" >
+    /// Change Background
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="53dp"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+
+        android:fontFamily="cursive"
+        android:text="R B  Works Developers"
+        android:id="@+id/textView110"
+        android:foregroundGravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView109"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="137dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="38dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="Java "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignTop="@+id/textView109"
+        android:layout_marginTop="92dp"
+        android:layout_toEndOf="@+id/textView109"
+        android:layout_toRightOf="@+id/textView109"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Quiz "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="40dp" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_toLeftOf="@+id/textView101"
+        android:layout_toStartOf="@+id/textView101" />
+
+
+
+    //// change sitweb or invesible
+
+</RelativeLayout>
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rbworks.dev.jdm">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Java Quiz"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.rbworks.dev.jdm.MainAbout"
+            android:label="About Us "
+            android:parentActivityName="com.rbworks.dev.jdm.MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jdm.MainActivity" />
+
+
+        <activity
+            android:name="com.rbworks.dev.jdm.ResultActivity"
+            android:label="Result  "
+            android:parentActivityName="com.rbworks.dev.jdm.MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jdm.MainActivity" />
+
+
+        <activity
+            android:name="com.rbworks.dev.jdm.QuizActivity"
+            android:label="Quiz   "
+            android:parentActivityName="com.rbworks.dev.jdm.MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.rbworks.dev.jdm.MainActivity" />
+
+
+
+
+        <activity android:name=".MainActivity"></activity>
+
+    </application>
+
+
+
+</manifest>
